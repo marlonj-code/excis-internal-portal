@@ -49,7 +49,7 @@ const Index = () => {
       id: "excis-mail",
       name: "Excis Mail",
       description: "Corporate email platform with advanced security and collaboration",
-      url: "#",
+      url: "https://mail.exc1s.com/",
       icon: Mail,
       color: "#DC3545",
       category: "communication"
