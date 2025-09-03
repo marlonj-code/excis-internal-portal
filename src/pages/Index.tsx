@@ -20,9 +20,9 @@ const Index = () => {
     },
     {
       id: "excis-signin",
-      name: "Excis Sign-in",
+      name: "Excis Sign",
       description: "Secure single sign-on portal for all Excis applications",
-      url: "#",
+      url: "https://docusign.excis.me",
       icon: Shield,
       color: "#28A745",
       category: "authentication"
