@@ -8,52 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 210 25% 98%;
-    --foreground: 215 25% 27%;
+    --background: 250 250% 99%;
+    --foreground: 220 30% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 27%;
+    --card-foreground: 220 30% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover-foreground: 220 30% 25%;
 
-    --primary: 213 94% 68%;
+    --primary: 220 90% 25%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 214 32% 91%;
-    --secondary-foreground: 215 25% 27%;
+    --secondary: 220 15% 95%;
+    --secondary-foreground: 220 30% 25%;
 
-    --muted: 214 32% 91%;
-    --muted-foreground: 215 20% 55%;
+    --muted: 220 15% 95%;
+    --muted-foreground: 220 15% 45%;
 
-    --accent: 213 94% 68%;
+    --accent: 25 95% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 213 94% 68%;
+    --border: 220 15% 90%;
+    --input: 220 15% 95%;
+    --ring: 25 95% 55%;
 
     --radius: 0.75rem;
 
-    /* Enterprise Portal Colors */
-    --portal-primary: 213 94% 68%;
-    --portal-primary-dark: 213 94% 58%;
-    --portal-secondary: 220 13% 95%;
-    --portal-accent: 45 93% 58%;
-    --portal-success: 142 76% 36%;
+    /* Excis Brand Colors - Navy Blue & Orange */
+    --excis-navy: 220 90% 25%;
+    --excis-orange: 25 95% 55%;
+    --excis-orange-light: 25 95% 65%;
+    --excis-navy-light: 220 80% 35%;
     
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(213 94% 68%), hsl(213 94% 78%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(214 32% 97%));
-    --gradient-hero: linear-gradient(135deg, hsl(213 94% 68%) 0%, hsl(220 70% 50%) 100%);
+    /* Brand Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 90% 25%), hsl(220 80% 35%));
+    --gradient-brand: linear-gradient(135deg, hsl(220 90% 25%) 0%, hsl(25 95% 55%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 15% 98%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 90% 25%) 0%, hsl(220 80% 35%) 50%, hsl(25 95% 55%) 100%);
     
     /* Shadows */
-    --shadow-card: 0 4px 6px -1px hsl(213 94% 68% / 0.1), 0 2px 4px -1px hsl(213 94% 68% / 0.06);
-    --shadow-card-hover: 0 10px 15px -3px hsl(213 94% 68% / 0.2), 0 4px 6px -2px hsl(213 94% 68% / 0.1);
-    --shadow-elevated: 0 25px 50px -12px hsl(213 94% 68% / 0.25);
+    --shadow-card: 0 4px 6px -1px hsl(220 90% 25% / 0.1), 0 2px 4px -1px hsl(220 90% 25% / 0.06);
+    --shadow-card-hover: 0 10px 15px -3px hsl(25 95% 55% / 0.2), 0 4px 6px -2px hsl(25 95% 55% / 0.1);
+    --shadow-elevated: 0 25px 50px -12px hsl(220 90% 25% / 0.25);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

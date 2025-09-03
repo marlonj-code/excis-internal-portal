@@ -15,7 +15,7 @@ const Index = () => {
       description: "Access Word, Excel, PowerPoint, Teams, and more productivity tools",
       url: "https://office.com",
       icon: FileText,
-      color: "#0078D4",
+      color: "#1e3a8a", // Excis Navy
       category: "productivity"
     },
     {
@@ -24,7 +24,7 @@ const Index = () => {
       description: "Secure single sign-on portal for all Excis applications",
       url: "https://docusign.excis.me",
       icon: Shield,
-      color: "#28A745",
+      color: "#f97316", // Excis Orange
       category: "authentication"
     },
     {
@@ -33,7 +33,7 @@ const Index = () => {
       description: "Customer relationship management and sales pipeline tracking",
       url: "#",
       icon: Users,
-      color: "#6F42C1",
+      color: "#1e3a8a", // Excis Navy
       category: "business"
     },
     {
@@ -42,7 +42,7 @@ const Index = () => {
       description: "Human resources management system for employee data and workflows",
       url: "#",
       icon: Database,
-      color: "#FD7E14",
+      color: "#f97316", // Excis Orange
       category: "hr"
     },
     {
@@ -51,7 +51,7 @@ const Index = () => {
       description: "Corporate email platform with advanced security and collaboration",
       url: "https://mail.exc1s.com/",
       icon: Mail,
-      color: "#DC3545",
+      color: "#1e3a8a", // Excis Navy
       category: "communication"
     }
   ];

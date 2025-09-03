@@ -52,12 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				portal: {
-					primary: 'hsl(var(--portal-primary))',
-					'primary-dark': 'hsl(var(--portal-primary-dark))',
-					secondary: 'hsl(var(--portal-secondary))',
-					accent: 'hsl(var(--portal-accent))',
-					success: 'hsl(var(--portal-success))'
+				excis: {
+					navy: 'hsl(var(--excis-navy))',
+					orange: 'hsl(var(--excis-orange))',
+					'orange-light': 'hsl(var(--excis-orange-light))',
+					'navy-light': 'hsl(var(--excis-navy-light))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -72,6 +71,7 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-brand': 'var(--gradient-brand)',
 				'gradient-card': 'var(--gradient-card)',
 				'gradient-hero': 'var(--gradient-hero)'
 			},
