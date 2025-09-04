@@ -31,7 +31,7 @@ const Index = () => {
       id: "excis-crm", 
       name: "Excis CRM",
       description: "Customer relationship management and sales pipeline tracking",
-      url: "#",
+      url: "https://crm.zoho.com",
       icon: Users,
       color: "#1e3a8a", // Excis Navy
       category: "business"
