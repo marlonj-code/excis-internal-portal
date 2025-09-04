@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Search, Mail, Users, FileText, Shield, Calendar, Database } from "lucide-react";
+import { Search, Mail, Users, FileText, Shield, Calendar, Database, Headphones } from "lucide-react";
 import PortalHeader from "@/components/PortalHeader";
 import AppGrid from "@/components/AppGrid";
 import { AppData } from "@/components/AppCard";
@@ -53,6 +53,15 @@ const Index = () => {
       icon: Mail,
       color: "#1e3a8a", // Excis Navy
       category: "communication"
+    },
+    {
+      id: "excis-service-desk",
+      name: "Excis Service Desk",
+      description: "IT support and helpdesk for technical assistance and service requests",
+      url: "http://sd.excis.com",
+      icon: Headphones,
+      color: "#f97316", // Excis Orange
+      category: "support"
     }
   ];
 
